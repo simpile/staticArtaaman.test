@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="آرماتورهای استاپ موشن مخصوص انیمیت و آموزش">
+  <meta name="keywords" content="آرماتور,  استاپموشن, انیمیت">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsiv.css">
+  <link rel="icon" type="image/x-icon" href="images/logo.svg">
+
+
+  <title>تماس با ما</title>
+  <style>
+    .contents-wrapper .iconify {
+      color: var(--grey-mid);
+      font-size: 1.5rem;
+      margin-left: .51rem;
+    }
+    .contents-wrapper a:hover {
+      color: var(--yallow-mid);
+    }
+
+    .itemContainer{
+      display: flex;
+      flex-direction: column;
+    }
+.qrCode{
+  display: none;
+}
+.itemContainer a:hover .qrCode{
+display: block;    }
+
+    .itemContainer p{
+   max-width: 50%;
+  
+    }
+    /* .contents-wrapper .iconify:hover{color: var(--yallow-mid);} */
+    .addressTitles {
+      display: flex;
+      justify-content: flex-start;
+      /* flex-direction: row-reverse; */
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    .partA{
+      display: flex;
+      flex-direction: column;
+justify-content: space-between;    }
+
+    .partB{
+      display: flex;
+      /* justify-content: space-evenly;
+      flex-wrap: wrap; */
+      flex-direction: column;
+
+    }
+  </style>
+</head>
+
+<body style="background-color: var(--grey-light);">
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                                 NAVBAR                                  -->
+  <!-- ----------------------------------------------------------------------- -->
+
+  <div class="extNav-container">
+    <script src="layouts/nav.js"></script>
+  </div>
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                                MAIN-PART                                -->
+  <!-- ----------------------------------------------------------------------- -->
+
+
+  <section
+    style="position: relative; background-color: white; width: 90%; margin: 4rem auto;  border-radius: 25px; display:flex; flex-direction:column; justify-content:center; align-items:center; padding: 2rem;     box-shadow: 1px 1px 3px rgb(210 208 208); direction: rtl;">
+    <h2>تماس با آرتامن</h2>
+   <div style="display: flex; justify-content: space-between; align-items: flex-end;  margin-top: 2rem;">
+     <div class="contents-wrapper" style="  border-right: 2px var(--yallow-mid) solid; padding-right: 1rem;
+   display: flex; 
+  justify-content: flex-start;
+   /* width: 100%;  */
+   text-align: right;
+   align-items: flex-end;
+    ">
+      <div class="partA">
+        <div class="itemContainer">
+          <div class="addressTitles">
+            <span class="iconify" data-icon="simple-line-icons:location-pin"></span>
+            <h5>آدرس کارخانه</h5>
+          </div>
+          <p>کرج، ماهدشت، شهرک صنعتی پیام، خیابان سرداران، خیابان ششم شمالی، پلاک 16</p>
+        </div>
+        <div class="itemContainer">
+          <div class="addressTitles">
+            <span class="iconify" data-icon="clarity:phone-handset-line"></span>
+            <h5>تلفن</h5>
+          </div>
+          <a>026-22556556</a>
+          <br>
+          <a>026-22556556</a>
+        </div>
+        <div class="itemContainer">
+          <div class="addressTitles">
+            <span class="iconify" data-icon="fontisto:email"></span>
+            <h5>پست الکترونیک</h5>
+          </div>
+          <a>artaamane@gmail.com</a>
+        </div>
+      </div>
+      <div class="partB">
+        <div class="itemContainer">
+          <div class="addressTitles">
+            <span class="iconify" data-icon="simple-line-icons:socizal-instagram"></span>
+            <h5>اینستاگرام</h5>
+          </div>
+          <a href="" artaman-co>artaman-co</a>
+        </div>
+        <div class="itemContainer">
+          <div class="addressTitles">
+            <span class="iconify" data-icon="ic:baseline-whatsapp"></span>
+            <h5>واتساپ</h5>
+          </div>
+          <a onmouseenter="qrShow()"  href="" artaman-co>09909890646</a>
+          <img onmouseleave="qrHide()" class="qrCode" width="130px" src="images/whtsapQRcode.jpg" alt="whatsapp QR code">
+
+        </div>
+        <div class="itemContainer">
+          <div class="addressTitles">
+            <span class="iconify" data-icon="ph:telegram-logo"></span>
+            <h5>تلگرام</h5>
+          </div>
+          <a href="" artaman-co>artaman_co</a>
+        </div>
+      </div>
+    </div>
+    <img src="images/logo-grey.svg" alt="">
+  </div>
+  </section>
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                                 FOOTER                                  -->
+  <!-- ----------------------------------------------------------------------- -->
+  <div class="google-map" data-aos="zoom-in">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.515589442162!2d50.89746143142727!3d35.664304682863275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8d911392c5ae41%3A0x35b3a4b7458a8870!2z2q_YsdmI2Ycg2LXZhti52KrbjCDZvtuM2YTZhyDZiNix!5e0!3m2!1sfa!2s!4v1626468814721!5m2!1sfa!2s"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+  <footer class="myFooter-wrapper">
+    <section class="myFooter-container mainWrapper ">
+      <div data-aos="fade-up" class="myFooter-right">
+        <img src="images/logo-grey.svg" alt="">
+        <h2> <strong> خلاقیت</strong> را با ما تجربه کنید</h2>
+      </div>
+      <a class="myFooter-copyRight" href="">
+        copyright by artaman
+      </a>
+      <h5 data-aos="fade-up" data-aos-delay="50" class="myFooter-titles">
+        <span class="iconify" data-icon="ant-design:phone-filled" data-width="25"></span>
+        اطلاعات تماس
+      </h5>
+      <h5 data-aos="fade-up" data-aos-delay="100" class="myFooter-titles">
+        <span class="iconify" data-icon="ci:location" data-width="25"></span>
+        آدرس
+      </h5>
+      <div class="myFooter-phones" data-aos="fade-up" data-aos-delay="50">
+        <a href="tel:00982637850451">
+          026-37850451
+        </a>
+        <br>
+        <a href="tel:00982637850452">
+          026-37850452
+        </a>
+      </div>
+      <div class="mySocialLinks">
+        <a href="">
+          <span class="iconify" data-icon="iconoir:telegram-circled" data-width="25"></span>
+        </a>
+        <a href="">
+          <span class="iconify" data-icon="lucide:instagram" data-width="25"></span>
+        </a>
+        <a href="">
+          <span class="iconify" data-icon="ic:twotone-whatsapp" data-width="28"></span>
+        </a>
+        <a class="myFooter-emailIcone" href="mailto:artaamane@gmail.com">
+          <i data-width="25" class="iconify" data-icon="ant-design:mail-outlined"></i>
+        </a>
+      </div>
+      <p class="myFooter-address" data-aos="fade-up" data-aos-delay="100">
+        کرج، ماهدشت، شهرک صنعتی پیام، خیابان سرداران، خیابان ششم شمالی، پلاک 16
+      </p>
+      <a class="myFooter-emailAddress" href="mailto:artaamane@gmail.com">
+        artaamane@gmail.com
+      </a>
+    </section>
+  </footer>
+
+<script>
+  function qrShow(){
+document.getElementsByClassName("qrCode")[0].style.display="block"
+  }
+  function qrHide(){
+document.getElementsByClassName("qrCode")[0].style.display="none"
+  }
+
+</script>
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                                 SCRIPTS                                 -->
+  <!-- ----------------------------------------------------------------------- -->
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

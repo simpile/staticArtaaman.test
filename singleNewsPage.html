@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="آرماتورهای استاپ موشن مخصوص انیمیت و آموزش">
+  <meta name="keywords" content="آرماتور,  استاپموشن, انیمیت">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <!-- <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsiv.css">
+  <link rel="stylesheet" href="css/newsPage.css">
+
+
+  <link rel="icon" type="image/x-icon" href="images/logo.svg">
+
+
+  <title>News</title>
+
+  <style>
+
+    .shareIcones .iconify{
+color: var(--grey-mid); 
+   }
+
+
+   .shareIcones a:hover .iconify {
+  color: var(--yallow-mid);
+ 
+}
+.shareIcones a{
+background-color:var(--grey-light);
+padding: .5rem 0.5rem 0;
+border-radius: 10px;
+}
+.shareIcones a:hover{
+transform: translateX(10px);
+}
+.optionsWrapper{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+ .otherOptions{
+   width: 20%;
+   min-height: 10vh;
+   background-color: var(--grey-light);
+   border-radius: 25px;
+   padding: .5rem;
+ }
+  </style>
+</head>
+<body style="background-color: var(--grey-light);">
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                                 NAVBAR                                  -->
+  <!-- ----------------------------------------------------------------------- -->
+
+
+  <div class="extNav-container" >
+    <script src="layouts/nav.js"></script>
+    </div>
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                                MAIN-PART                                -->
+<!-- ----------------------------------------------------------------------- -->
+    <section style="position: relative; background-color: white; width: 90%; margin: 4rem auto; border-radius: 25px; display:flex; flex-direction:column; justify-content:center; align-items:center; padding: 2rem;     box-shadow: 1px 1px 3px rgb(210 208 208);
+    ">
+    <div class="shareIcones" style=" color: var(--grey-mid); border-radius: 10px; position:absolute; left:.5rem; top: .5rem; cursor: pointer;  padding: .5rem .5rem 0 ; display: flex; flex-direction: column;">
+      <a class="singleIcone"> <span  class="iconify"  data-width="32" data-icon="carbon:share"></span></a>
+     <a> <span class="iconify"   data-width="32"data-icon="iconoir:instagram"></span> </a>
+     <a> <span class="iconify"   data-width="32"data-icon="ic:round-whatsapp"></span></a>
+     <a> <span class="iconify"   data-width="32"data-icon="iconoir:telegram-circled"></span> </a>
+
+
+  
+     </div> 
+     <header>
+        <h1 id="newsTitle"></h1>
+      </header>
+      <main style=" display:flex; flex-direction:row-reverse; justify-content:space-around; align-items:center; text-align: right;  padding: 2rem; ">
+        <img style="    box-shadow: 1px 1px 3px rgb(210 208 208);
+        width: 40%; border-radius: 20px; flex-wrap: wrap;" id="newsImg">
+        <p style="width: 30%; " id="newsText" ></p>
+      
+      </main>
+      <div  style="width: 100%; display:flex; flex-direction:column; justify-content:space-around; align-items:flex-end; text-align: right;  padding: 2rem; font-family:'Shabnam-DG-L' ; ">
+        <a href=""><span>نام نویسنده</span></a>
+       <a href=""></a><span>تاریخ</span></a>
+        
+
+      </div>
+      <div class="pagington" style="width: 100%; display: flex; justify-content: space-between;">
+      <a>بعد</a>
+      <a>قبل</a>
+    </div>
+    </section>
+<section style="background-color: var(--white-color); text-align: center; min-height: 40vh; width: 90%; margin: 1rem auto; border-radius: 25px; display: flex; flex-direction: column; justify-content: space-around;">
+  <h3 >
+    مطالب مشابه
+  </h3>
+  <div class="optionsWrapper">
+    <div class="otherOptions"></div>
+    <div class="otherOptions"></div>
+    <div class="otherOptions"></div>
+  </div>
+</section>
+
+
+
+    
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                                 FOOTER                                  -->
+  <!-- ----------------------------------------------------------------------- -->
+  <div class="extFoot-container">
+    <script src="layouts/footer.js"></script>
+   </div>
+
+
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                                 SCRIPTS                                 -->
+<!-- ----------------------------------------------------------------------- -->
+<!-- Swiper JS -->
+<script src="js/jquery.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/newsScripts.js"></script>
+<script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+
+</body>
+
+</html>
